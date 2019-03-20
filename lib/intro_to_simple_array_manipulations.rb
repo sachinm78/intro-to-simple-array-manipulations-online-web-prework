@@ -3,7 +3,9 @@ def using_push(countries_in_western_africa, next_country)
 end
 
 def using_unshift(neighborhoods_in_northwest_brooklyn, 
-    updated_array = neighborhoods_in_northwest_brooklyn.unshift(new_neighborhood)
+        countries_in_western_africa = ["Benin", "Carpe Verde", "Gambia", "Liberia", "Mali"]
+    next_country = "Niger"
+    updated_array = neighborhoods_in_northwest_brookly.unshift(new_neighborhood)
 end
 
 def using_pop(great_hits_of_the_nineties)
